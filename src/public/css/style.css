@@ -1,0 +1,9 @@
+tbody {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.previewEle {
+    max-height: 400px;
+    overflow-y: scroll;
+}

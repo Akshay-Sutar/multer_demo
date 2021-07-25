@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>File upload demo</title>
+  <%- include('../partials/head'); %>
+</head>
+<body>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <a href="/files">
+                    <i class="fa fa-arrow-circle-left" style="font-size:36px"></i>
+                </a>
+            </div>
+
+
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-header">Not found</div>
+                    <div class="card-body">
+                        <span>Cannot navigate to <%= originalUrl %></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</main>
+
+</body>
+</html>
